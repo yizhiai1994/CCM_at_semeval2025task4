@@ -1,0 +1,493 @@
+0,1,2,3,4,5,correct,choiceA_probs,choiceB_probs,choiceC_probs,choiceD_probs
+Which one of the following is the most appropriate definition of a 99% confidence interval?,"99% of the time in repeated samples, the interval would contain the true value of the parameter","99% of the time in repeated samples, the interval would contain the estimated value of the parameter","99% of the time in repeated samples, the null hypothesis will be rejected","99% of the time in repeated samples, the null hypothesis will not be rejected when it was false",A,False,0.16776074469089508,0.11530014872550964,0.5855425000190735,0.13065220415592194
+What is the main difference between the Dickey Fuller (DF) and Phillips-Perron (PP) approaches to unit root testing?,ADF is a single equation approach to unit root testing while PP is a systems approach,PP tests reverse the DF null and alternative hypotheses so that there is stationarity under the null hypothesis of the PP test,The PP test incorporates an automatic correction for autocorrelated residuals in the test regression,PP tests have good power in small samples whereas DF tests do not.,C,True,0.1119980663061142,0.30444231629371643,0.34497833251953125,0.23709993064403534
+"If there were a leverage effect in practice, what would be the shape of the news impact curve for as model that accounted for that leverage?",It would rise more quickly for negative disturbances than for positive ones of the same magnitude,It would be symmetrical about zero,It would rise less quickly for negative disturbances than for positive ones of the same magnitude,It would be zero for all positive disturbances,A,False,0.22683997452259064,0.057354122400283813,0.42379283905029297,0.2912682890892029
+Which of the following statements is false concerning the linear probability model?,There is nothing in the model to ensure that the estimated probabilities lie between zero and one,"Even if the probabilities are truncated at zero and one, there will probably be many observations for which the probability is either exactly zero or exactly one",The error terms will be heteroscedastic and not normally distributed,The model is much harder to estimate than a standard regression model with a continuous dependent variable,D,False,0.06538739800453186,0.07409363240003586,0.4831511676311493,0.37627851963043213
+Which of the following statements concerning the regression population and sample is FALSE?,The population is the total collection of all items of interest,The population can be infinite,"In theory, the sample could be larger than the population",A random sample is one where each individual item from the population is equally likely to be drawn.,C,True,0.058594200760126114,0.045633211731910706,0.5559263229370117,0.33718636631965637
+Which of the following statements is INCORRECT concerning a comparison of the Box-Pierce Q and the Ljung-Box Q* statistics for linear dependence in time series?,"Asymptotically, the values of the two test statistics will be equal",The Q test has better small-sample properties than the Q*,The Q test is sometimes over-sized for small samples,"As the sample size tends towards infinity, both tests will show a tendency to always reject the null hypothesis of zero autocorrelation coefficients.",B,False,0.05313105508685112,0.06822162121534348,0.7334515452384949,0.144425168633461
+A parsimonious model is one that,Includes too many variables,Includes as few variables as possible to explain the data,Is a well-specified model,Is a mis-specified model,A,False,0.08877580612897873,0.08877580612897873,0.6559694409370422,0.1658550500869751
+Which of the following is NOT a feature of continuously compounded returns (i.e. log-returns)?,They can be interpreted as continuously compounded changes in the prices,They can be added over time to give returns for longer time periods,They can be added across a portfolio of assets to give portfolio returns,They are usually fat-tailed,C,True,0.15217316150665283,0.049403395503759384,0.601856529712677,0.19539421796798706
+"Which of the following features of financial asset return time-series could be captured using a standard GARCH(1,1) model?
+
+i) Fat tails in the return distribution
+
+
+ii) Leverage effects
+
+
+iii) Volatility clustering
+
+
+iv) Volatility affecting returns",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",B,False,0.019020291045308113,0.021552812308073044,0.808763325214386,0.1094542145729065
+"Consider the estimation of a GARCH-M model. If the data employed were a time-series of daily corporate bond percentage returns, which of the following would you expect the value of the GARCH-in-mean parameter estimate to be?",Less than -1,Between -1 and 0,Between 0 and 1,Bigger than 1,C,True,0.13705164194107056,0.12094765156507492,0.542049765586853,0.19940897822380066
+"Under which of the following situations would bootstrapping be preferred to pure simulation?
+
+i) If it is desired that the distributional properties of the data in the experiment
+
+are the same as those of some actual data
+
+
+ii) If it is desired that the distributional properties of the data in the experiment
+
+are known exactly
+
+
+iii) If the distributional properties of the actual data are unknown
+
+
+iv) If the sample of actual data available is very small",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iv) only","(i), (ii), (iii), and (iv)",B,False,0.007193898316472769,0.017257265746593475,0.9422147870063782,0.028452422469854355
+"Which of the following may be consequences of one or more of the CLRM assumptions being violated?
+
+i) The coefficient estimates are not optimal
+
+
+ii) The standard error estimates are not optimal
+
+
+iii) The distributions assumed for the test statistics are inappropriate
+
+
+iv) Conclusions regarding the strength of relationships between the dependent
+
+and independent variables may be invalid.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",D,False,0.014233016408979893,0.02070891670882702,0.8805655241012573,0.08190535008907318
+Which of the following statements is true concerning forecasting in econometrics?,Forecasts can only be made for time-series data,Mis-specified models are certain to produce inaccurate forecasts,Structural forecasts are simpler to produce than those from time series models,In-sample forecasting ability is a poor test of model adequacy,D,False,0.09257862716913223,0.0495537705719471,0.6840686798095703,0.17295964062213898
+The pacf is necessary for distinguishing between,An AR and an MA model,An AR and an ARMA model,An MA and an ARMA model,Different models from within the ARMA family,B,False,0.1265670359134674,0.06774645298719406,0.7283430695533752,0.07676678895950317
+Negative residual autocorrelation is indicated by which one of the following?,A cyclical pattern in the residuals,An alternating pattern in the residuals,A complete randomness in the residuals,Residuals that are all close to zero,B,False,0.36693352460861206,0.13498730957508087,0.3238177001476288,0.17332713305950165
+"Which of the following statements are true concerning a comparison between ARCH(q) and GARCH(1,1) models?
+
+i) The ARCH(q) model is likely to be the more parsimonious
+
+
+ii) The ARCH(q) model is the more likely to violate non-negativity constraints
+
+
+iii) The ARCH(q) model can allow for an infinite number of previous lags of squared
+
+returns to affect the current conditional variance
+
+
+iv) The GARCH(1,1) model will usually be sufficient to capture all of the dependence
+
+in the conditional variance",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.020526112988591194,0.023259133100509644,0.8727925419807434,0.0716431736946106
+"Which of the following statements are true concerning a triangular or recursive system?
+
+i) The parameters can be validly estimated using separate applications of OLS to
+
+each equation
+
+
+ii) The independent variables may be correlated with the error terms in other
+
+equations
+
+
+iii) An application of 2SLS would lead to unbiased but inefficient parameter estimates
+
+
+iv) The independent variables may be correlated with the error terms in the equations
+
+in which they appear as independent variables",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.016866525635123253,0.024540649726986885,0.9208810925483704,0.03570643439888954
+Which one of the following statements best describes the algebraic representation of the fitted regression line?,\hat{y}_t = \hat{\alpha} + \hat{\beta}x_t + \hat{u}_t,\hat{y}_t = \hat{\alpha} + \hat{\beta}x_t,\hat{y}_t = \hat{\alpha} + \hat{\beta}x_t + u_t,y_t = \hat{\alpha} + \hat{\beta}x_t + \hat{u}_t,B,False,0.1399179995059967,0.10896825045347214,0.48836177587509155,0.2614012360572815
+What are the dimensions of $\hat{u}^t \hat{u}?,T x k,T x 1,k x 1,1 x 1,D,False,0.4721223711967468,0.15327569842338562,0.324484646320343,0.0497613288462162
+"The characteristic roots of the MA process
+
+$y_t = -3u_{t-1} + u_{t-2} + u_t$
+
+are",1 and 2,1 and 0.5,2 and -0.5,1 and -3,B,False,0.17276978492736816,0.1345532387495041,0.4696369469165802,0.2218407839536667
+"Which of the following is an equivalent expression for saying that the explanatory variable is ""non-stochastic""?",The explanatory variable is partly random,The explanatory variable is fixed in repeated samples,The explanatory variable is correlated with the errors,The explanatory variable always has a value of one,B,False,0.21390770375728607,0.11449652165174484,0.5814613699913025,0.08916998654603958
+Suppose that the Durbin Watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points. The test statistic takes a value of 1.53. What is the appropriate conclusion?,Residuals appear to be positively autocorrelated,Residuals appear to be negatively autocorrelated,Residuals appear not to be autocorrelated,The test result is inconclusive,D,False,0.11877855658531189,0.1958327442407608,0.6032072901725769,0.08163522928953171
+"If OLS is used in the presence of autocorrelation, which of the following will be likely consequences?
+
+i) Coefficient estimates may be misleading
+
+
+ii) Hypothesis tests could reach the wrong conclusions
+
+
+iii) Forecasts made from the model could be biased
+
+
+iv) Standard errors may inappropriate",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.012852641753852367,0.011342416517436504,0.9010397791862488,0.06527110189199448
+What will be the properties of the OLS estimator in the presence of multicollinearity?,"It will be consistent, unbiased and efficient",It will be consistent and unbiased but not efficient,It will be consistent but not unbiased,It will not be consistent,A,False,0.1690792441368103,0.05489198863506317,0.45960497856140137,0.3158815801143646
+Which one of the following would NOT be a consequence of using non-stationary data in levels form?,The regression $R^2$ may be spuriously high,Test statistics may not follow standard distributions,Statistical inferences may be invalid,Parameter estimates may be biased,D,False,0.10704758763313293,0.0572984479367733,0.5436325669288635,0.2909855544567108
+"If a series, y, follows a random walk, what is the optimal one-step ahead forecast of y?",The current value of y,Zero,One,The average value of y over the in-sample period,A,False,0.04278173670172691,0.054932840168476105,0.8592942357063293,0.04278173670172691
+The order condition is,A necessary and sufficient condition for identification,A necessary but not sufficient condition for identification,A sufficient but not necessary condition for identification,A condition that is nether necessary nor sufficient for identification,B,False,0.08779840916395187,0.09948863089084625,0.5052450299263,0.3064465820789337
+"If an estimator is said to have minimum variance, which of the following statements is NOT implied?",The probability that the estimate is a long way away from its true value is minimised,The estimator is efficient,"Such an estimator would be termed ""best""",Such an estimator will always be unbiased,D,False,0.1328902393579483,0.0913340300321579,0.5255910754203796,0.24827167391777039
+"Which of the following are disadvantages of the Dickey-Fuller / Engle-Granger approach to testing for cointegration and modelling cointegrating relationships?
+
+i) Only one cointegrating relationship can be estimated
+
+ii) Particularly for small samples. There is a high chance of the tests suggestingthat variables are not cointegrated when they are
+
+iii) It is not possible to make inferences on the cointegrating regression
+
+iv) The procedure forces the researcher to specify which is the dependent variable and which are the independent variables.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",D,False,0.017795246094465256,0.02016465552151203,0.8574230074882507,0.10240457206964493
+Which of the following statements is true concerning the population regression function (PRF) and sample regression function (SRF)?,The PRF is the estimated model,The PRF is used to infer likely values of the SRF,Whether the model is good can be determined by comparing the SRF and the PRF,The PRF is a description of the process thought to be generating the data.,D,False,0.09441832453012466,0.03065314330160618,0.6976622939109802,0.17639665305614471
+"Which one of the following is a disadvantage of the general to specific or ""LSE"" (""Hendry"") approach to building econometric models, relative to the specific to general approach?",Some variables may be excluded at the first stage leading to coefficient biases,The final model may lack theoretical interpretation,The final model may be statistically inadequate,"If the initial model is mis-specified, all subsequent steps will be invalid.",B,False,0.04242436960339546,0.08981238305568695,0.7519899010658264,0.11532139033079147
+"Which of the following statements are true concerning maximum likelihood (ML) estimation in the context of GARCH models?
+
+i) Maximum likelihood estimation selects the parameter values that maximise the
+
+probability that we would have actually observed the values of the series y that we
+
+actually did.
+
+
+ii) GARCH models can only be estimated by ML and not by OLS
+
+
+iii) For estimation of a standard linear model (with no GARCH), the OLS and ML
+
+estimates for the slope and intercept parameters will be identical but the estimator
+
+for the variance of the disturbances is slightly different
+
+
+iv) Most computer packages use numerical procedures to estimate GARCH models
+
+rather than a set of analytical formulae",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",D,False,0.018925068899989128,0.021444914862513542,0.9118609428405762,0.045398879796266556
+Including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following?,Biased but consistent coefficient estimates,Biased and inconsistent coefficient estimates,Unbiased but inconsistent coefficient estimates,Unbiased and consistent but inefficient coefficient estimates.,A,False,0.045406848192214966,0.040071409195661545,0.7102826833724976,0.20349939167499542
+Which one of the following factors is likely to lead to a relatively high degree of out-of-sample forecast accuracy?,A model that is based on financial theory,A model that contains many variables,A model whose dependent variable has recently exhibited a structural change,A model that is entirely statistical in nature with no room for judgmental modification of forecasts,A,False,0.15993309020996094,0.09700433164834976,0.6325476765632629,0.10992029309272766
+"Which of the following are plausible approaches to dealing with residual autocorrelation?
+
+i) Take logarithms of each of the variables
+
+ii) Add lagged values of the variables to the regression equation
+
+iii) Use dummy variables to remove outlying observations
+
+iv) Try a model in first differenced form rather than in levels.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.017755946144461632,0.020120123401284218,0.8555294275283813,0.09017213433980942
+For an autoregressive process to be considered stationary,The roots of the characteristic equation must all lie inside the unit circle,The roots of the characteristic equation must all lie on the unit circle,The roots of the characteristic equation must all lie outside the unit circle,The roots of the characteristic equation must all be less than one in absolute value,C,True,0.32174575328826904,0.10445554554462433,0.468137264251709,0.10445554554462433
+"Which of the following statements are true concerning information criteria?
+
+(i) Adjusted R-squared is an information criterion
+
+(ii) If the residual sum of squares falls when an additional term is added, the value of the information criterion will fall
+
+(iii) Akaike's information criterion always leads to model orders that are at least as large as those of Schwarz's information criterion
+
+(iv) Akaike's information criterion is consistent",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",B,False,0.011507900431752205,0.027606017887592316,0.9141857624053955,0.045514628291130066
+"The ""within transform"" involves",Taking the average values of the variables,Subtracting the mean of each entity away from each observation on that entity,Estimating a panel data model using least squares dummy variables,Using both time dummies and cross-sectional dummies in a fixed effects panel model,B,False,0.045908767729997635,0.014904393814504147,0.813752293586731,0.12479296326637268
+"The purpose of ""augmenting"" the Dickey-Fuller test regression is to",Ensure that there is no heteroscedasticity in the test regression residuals.,Ensure that the test regression residuals are normally distributed,Ensure that there is no autocorrelation in the test regression residuals,Ensure that all of the non-stationarity is taken into account.,C,True,0.1984645277261734,0.08273232728242874,0.6113138198852539,0.10623040050268173
+"If a series, y, follows a random walk with drift b, what is the optimal one-step ahead forecast of the change in y?",The current value of y,Zero,One,The average value of the change in y over the in-sample period,D,False,0.059266604483127594,0.07609982043504715,0.8181502223014832,0.046156879514455795
+"Which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity?
+
+i) Take logarithms of each of the variables
+
+ii) Use suitably modified standard errors
+
+iii) Use a generalised least squares procedure
+
+iv) Add lagged values of the variables to the regression equation.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.01097292173653841,0.018091289326548576,0.871687114238739,0.09187514334917068
+"Which of the following statements are true concerning the standardised residuals (residuals divided by their respective conditional standard deviations) from an estimated GARCH model?
+
+i) They are assumed to be normally distributed
+
+
+ii) Their squares will be related to their lagged squared values if the GARCH model is
+
+appropriate
+
+
+iii) In practice, they are likely to have fat tails
+
+
+iv) If the GARCH model is adequate, the standardised residuals and the raw residuals
+
+will be identical",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",B,False,0.021222826093435287,0.01872907765209675,0.9024175405502319,0.050910916179418564
+Which one of the following statements is true concerning VARs?,The coefficient estimates have intuitive theoretical interpretations,The coefficient estimates usually have the same sign for all of the lags of a given variable in a given equation,VARs often produce better forecasts than simultaneous equation structural models,All of the components of a VAR must be stationary before it can be used for forecasting,C,True,0.10732293128967285,0.07376191020011902,0.6176009178161621,0.20050565898418427
+Which of the following statements is INCORRECT concerning the classical hypothesis testing framework?,"If the null hypothesis is rejected, the alternative is accepted",The null hypothesis is the statement being tested while the alternative encompasses the remaining outcomes of interest,The test of significance and confidence interval approaches will always give the same conclusions,Hypothesis tests are used to make inferences about the population parameters.,A,False,0.05287656560540199,0.05991699546575546,0.44273003935813904,0.44273003935813904
+"An ARMA(p,q) (p, q are integers bigger than zero) model will have",An acf and pacf that both decline geometrically,An acf that declines geometrically and a pacf that is zero after p lags,An acf that declines geometrically and a pacf that is zero after q lags,An acf that is zero after p lags and a pacf that is zero after q lags,A,False,0.09415193647146225,0.07332560420036316,0.5418069958686829,0.29000842571258545
+"Suppose that the following regression is estimated using 27 quarterly observations:
+
+$y_t = \beta_1 + \beta_2 x_2 + \beta_3 x_{3t} + u_t$
+
+What is the appropriate critical value for a 2-sided 5% size of test of $H_0: \beta_3 = 1$?",1.64,1.71,2.06,1.96,C,True,0.135495126247406,0.1535361111164093,0.5358936190605164,0.17397919297218323
+"Suppose that two researchers, using the same 3 variables and the same 250 observations on each variable, estimate a VAR. One estimates a VAR(6), while the other estimates a VAR(4). The determinants of the variance-covariance matrices of the residuals for each VAR are 0.0036 and 0.0049 respectively. What is the values of the test statistic for performing a test of whether the VAR(6) can be restricted to a VAR(4)?",77.07,0.31,0.33,4.87,A,False,0.05316711217164993,0.06024622917175293,0.6477080583572388,0.23827849328517914
+Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?,They are not theoretically motivated,They cannot produce forecasts easily,They cannot be used for very high frequency data,It is difficult to determine the appropriate explanatory variables for use in pure time-series models,A,False,0.07923466712236404,0.04805825278162956,0.5166749358177185,0.35510513186454773
+"Which of the following are alternative names for the dependent variable (usually denoted by y) in linear regression analysis?
+
+(i) The regressand
+
+(ii) The regressor
+
+(iii) The explained variable
+
+(iv) The explanatory variable",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",B,False,0.0137536795809865,0.025695256888866425,0.8509100079536438,0.10162670910358429
+"Which of the following are advantages of the VAR approach to modelling the relationship between variables relative to the estimation of full structural models?
+
+i) VARs receive strong motivation from financial and economic theory
+
+
+ii) VARs in their reduced forms can be used easily to produce time-series forecasts
+
+
+iii) VAR models are typically highly parsimonious
+
+
+iv) OLS can be applied separately to each equation in a reduced form VAR",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.008818192407488823,0.012830392457544804,0.8994799852371216,0.07383381575345993
+Which of the following statements is TRUE concerning the standard regression model?,y has a probability distribution,x has a probability distribution,The disturbance term is assumed to be correlated with x,"For an adequate model, the residual (u-hat) will be zero for all sample data points",A,False,0.12650200724601746,0.08694346994161606,0.34386810660362244,0.4415353834629059
+"Consider the following model for $y_t$:
+
+$y_t = \mu + \lambda t + u_t$
+
+Which one of the following most accurately describes the process for $y_t$?",A unit root process,A stationary process,A deterministic trend process,A random walk with drift,C,True,0.20887590944766998,0.08707243949174881,0.6433831453323364,0.05984394997358322
+Which of the following is correct concerning logit and probit models?,They use a different method of transforming the model so that the probabilities lie between zero and one,The logit model can result in too many observations falling at exactly zero or exactly one,"For the logit model, the marginal effect of a change in one of the explanatory variables is simply the estimate of the parameter attached to that variable, whereas this is not the case for the probit model",The probit model is based on a cumulative logistic function,A,False,0.13631227612495422,0.06438936293125153,0.6922509074211121,0.10616011917591095
+What is the most important disadvantage of the diagonal VECH approach to building multivariate GARCH models that is overcome by the BEKK formulation?,The diagonal VECH model is hard to interpret intuitively,The diagonal VECH model contains too many parameters,The diagonal VECH model does not ensure a positive-definite variance-covariance matrix,The BEKK model reduces the dimensionality problem that arises when a number of series are modelled together.,C,True,0.02649037167429924,0.02649037167429924,0.5320733785629272,0.41437914967536926
+"If a relevant variable is omitted from a regression equation, the consequences would be that:
+
+i) The standard errors would be biased
+
+
+ii) If the excluded variable is uncorrelated with all of the included variables, all of
+
+the slope coefficients will be inconsistent.
+
+
+iii) If the excluded variable is uncorrelated with all of the included variables, the
+
+intercept coefficient will be inconsistent.
+
+
+iv) If the excluded variable is uncorrelated with all of the included variables, all of
+
+the slope and intercept coefficients will be consistent and unbiased but inefficient.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.004203088115900755,0.01142517663538456,0.9076142311096191,0.07450151443481445
+"Which of the following are alternative names for the independent variable (usually denoted by x) in linear regression analysis?
+
+(i) The regressor
+
+(ii) The regressand
+
+(iii) The causal variable
+
+(iv) The effect variable",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",B,False,0.013739047572016716,0.02566792070865631,0.8500047922134399,0.10151859372854233
+"Consider the OLS estimator for the standard error of the slope coefficient. Which of the following statement(s) is (are) true?
+
+(i) The standard error will be positively related to the residual variance
+
+(ii) The standard error will be negatively related to the dispersion of the observations on the explanatory variable about their mean value
+
+(iii) The standard error will be negatively related to the sample size
+
+(iv) The standard error gives a measure of the precision of the coefficient estimate.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",D,False,0.012383632361888885,0.029706791043281555,0.8681597113609314,0.08075142651796341
+"What is the meaning of the term ""heteroscedasticity""?",The variance of the errors is not constant,The variance of the dependent variable is not constant,The errors are not linearly independent of one another,The errors have non-zero mean,A,False,0.2389393299818039,0.08790087699890137,0.5731856822967529,0.09960472583770752
+"If a Durbin Watson statistic takes a value close to zero, what will be the value of the first order autocorrelation coefficient?",Close to zero,Close to plus one,Close to minus one,Close to either minus one or plus one,C,True,0.2615651488304138,0.07493966817855835,0.5537334084510803,0.10903657227754593
+"Under the null hypothesis of a Bera-Jarque test, the distribution has",Zero skewness and zero kurtosis,Zero skewness and a kurtosis of three,Skewness of one and zero kurtosis,Skewness of one and kurtosis of three.,B,False,0.3256048560142517,0.09328734129667282,0.5368316173553467,0.04406582564115524
+"If an estimator is said to be consistent, it is implied that","On average, the estimated coefficient values will equal the true values",The OLS estimator is unbiased and no other unbiased estimator has a smaller variance,The estimates will converge upon the true values as the sample size increases,The coefficient estimates will be as close to their true values as possible for small and large samples.,C,True,0.2220088541507721,0.06360660493373871,0.6838354468345642,0.030045632272958755
+Which of the following is a typical characteristic of financial asset return time-series?,Their distributions are thin-tailed,They are not weakly stationary,They are highly autocorrelated,They have no trend,D,False,0.2182716727256775,0.03792993351817131,0.6723241209983826,0.07086243480443954
+"Which of the following assumptions are required to show the consistency, unbiasedness and efficiency of the OLS estimator?
+
+i) $E(u_t) = 0$
+
+
+ii) $\text{Var}(u_t) = \sigma^2$
+
+
+iii) $\text{Cov}(u_t, u_{t-j}) = 0 \forall j$
+
+
+iv) $u_t \sim N(0, \sigma^2)$",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.006255983840674162,0.011687717400491238,0.9284703731536865,0.05238071456551552
+Which of the following is a disadvantage of the fixed effects approach to estimating a panel model?,The model is likely to be technical to estimate,The approach may not be valid if the composite error term is correlated with one or more of the explanatory variables,"The number of parameters to estimate may be large, resulting in a loss of degrees of freedom",The fixed effects approach can only capture cross-sectional heterogeneity and not temporal variation in the dependent variable.,C,True,0.06023737043142319,0.08764484524726868,0.5043613314628601,0.3466421365737915
+"Consider an identical situation to that of question 21, except that now a 2-sided alternative is used. What would now be the appropriate conclusion?",H0 is rejected,H0 is not rejected,H1 is rejected,There is insufficient information given in the question to reach a conclusion,A,False,0.10136926174163818,0.16712966561317444,0.5833398699760437,0.14749141037464142
+The price of a house is best described as what type of number?,Discrete,Cardinal,Ordinal,Nominal,B,False,0.037543851882219315,0.017734458670020103,0.8544940948486328,0.09006301313638687
+"If a Johansen ""trace"" test for a null hypothesis of 2 cointegrating vectors is applied to a system containing 4 variables is conducted, which eigenvalues would be used in the test?",All of them,The largest 2,The smallest 2,The second largest,C,True,0.07910016179084778,0.21501652896404266,0.5157978534698486,0.18975144624710083
+"Which of the following statements is true concerning variance decomposition analysis of VARs?
+
+i) Variance decompositions measure the impact of a unit shock to each of the variables on the VAR
+
+ii) Variance decompositions can be thought of as measuring the proportion of the forecast error variance that is attributable to each variable
+
+iii) The ordering of the variables is important for calculating impulse responses but not variance decompositions
+
+iv) It is usual that most of the forecast error variance for a given variable is attributable to shocks to that variable",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.02751876227557659,0.031182842329144478,0.8042161464691162,0.12333054095506668
+"Suppose that we have estimated a GARCH model for daily equity returns, and we are interested in producing a 10-day forecast of the volatility (measured by the standard deviation of returns) for use in a value at risk model. How could such a forecast most validly be calculated?","Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts and add them up","Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts and add them up and take the square root","Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts, take the square roots of each one and add them up","Produce a 1-step ahead conditional variance forecast, take its square root and multiply it by the square root of 10",B,False,0.026842957362532616,0.05682653933763504,0.8889166712760925,0.026842957362532616
+"Suppose that the value of $R^2$ for an estimated regression model is exactly zero. Which of the following are true?
+
+i) All coefficient estimates on the slopes will be zero
+
+ii) The fitted line will be horizontal with respect to all of the explanatory variables
+
+iii) The regression line has not explained any of the variability of y about its mean value
+
+iv) The intercept coefficient estimate must be zero.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.023885324597358704,0.03938024118542671,0.7909733057022095,0.13745053112506866
+"A white noise process will have
+
+(i) A zero mean
+
+(ii) A constant variance
+
+(iii) Autocovariances that are constant
+
+(iv) Autocovariances that are zero except at lag zero",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.00775667279958725,0.0238922331482172,0.7912021279335022,0.1765410602092743
+"Which of the following statements are true concerning the Box-Jenkins approach to diagnostic testing for ARMA models?
+
+(i) The tests will show whether the identified model is either too large or too small
+
+(ii) The tests involve checking the model residuals for autocorrelation, heteroscedasticity, and non-normality
+
+(iii) If the model suggested at the identification stage is appropriate, the acf and pacf for the residuals should show no additional structure
+
+(iv) If the model suggested at the identification stage is appropriate, the coefficients on the additional variables under the overfitting approach will be statistically insignificant",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.014242096804082394,0.02660774067044258,0.8811273574829102,0.07232733815908432
+Which one of the following would be a plausible response to a finding of residual non-normality?,Use a logarithmic functional form instead of a linear one,Add lags of the variables on the right hand side of the regression model,Estimate the model in first differenced form,Remove any large outliers from the data.,D,False,0.12865012884140015,0.12865012884140015,0.5765698552131653,0.16519004106521606
+The fixed effects panel model is also sometimes known as,A seemingly unrelated regression model,The least squares dummy variables approach,The random effects model,Heteroscedasticity and autocorrelation consistent,B,False,0.012471362948417664,0.008571434766054153,0.8743100762367249,0.10442144423723221
+Which of the following statements is TRUE concerning OLS estimation?,OLS minimises the sum of the vertical distances from the points to the line,OLS minimises the sum of the squares of the vertical distances from the points to the line,OLS minimises the sum of the horizontal distances from the points to the line,OLS minimises the sum of the squares of the horizontal distances from the points to the line.,B,False,0.09149538725614548,0.08074440062046051,0.6760646104812622,0.15085040032863617
+"If the standard tools for time-series analysis, such as estimation of the acf, pacf and spectral analysis, find no evidence of structure in the data, this implies that the data are which of the following?",Normally distributed,Uncorrelated,Independent,Fat-tailed,B,False,0.1415434032678604,0.09728126972913742,0.634353518486023,0.1249116063117981
+"If two variables, $x_t$ and $y_t$ are said to be cointegrated, which of the following statements are true?
+
+i) $x_t$ and $y_t$ must both be stationary
+
+
+ii) Only one linear combination of $x_t$ and $y_t$ will be stationary
+
+
+iii) The cointegrating equation for $x_t$ and $y_t$ describes the short-run relationship
+
+between the two series
+
+
+iv) The residuals of a regression of $y_t$ on $x_t$ must be stationary",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",A,False,0.021153276786208153,0.023969803005456924,0.8994601964950562,0.05074407532811165
+A dependent variable whose values are not observable outside a certain range but where the corresponding values of the independent variables are still available would be most accurately described as what kind of variable?,Censored,Truncated,Multinomial variable,Discrete choice,A,False,0.052067920565605164,0.0357857272028923,0.8144793510437012,0.09727568924427032
+A Hausman test would be used for,Determining whether an equation that is part of a simultaneous system is identified,Determining whether a simultaneous framework is needed for a particular variable,Determining whether 2SLS or ILS is optimal,Determining whether the structural form equations can be obtained via substitution from the reduced forms,B,False,0.1765804886817932,0.1558317244052887,0.6163264513015747,0.050591155886650085
+"Under the matrix notation for the classical linear regression model, $y = X \beta + u$, what are the dimensions of $u$?",T x k,T x 1,k x 1,1 x 1,B,False,0.3916875123977661,0.16327965259552002,0.3916875123977661,0.053009141236543655
+"How many parameters will be required to be estimated in total for all equations of a standard form, unrestricted, tri-variate VAR(4), ignoring the intercepts?",12,4,3,36,D,False,0.08985503762960434,0.11537616699934006,0.5170800685882568,0.27677303552627563
+"A researcher tests for structural stability in the following regression model:
+
+$y_t = \beta_1 + \beta_2 x_{2t} + \beta_3 x_{3t} + u_t$
+
+The total sample of 200 observations is split exactly in half for the sub-sample regressions. Which would be the unrestricted residual sum of squares?",The RSS for the whole sample,The RSS for the first sub-sample,The RSS for the second sub-sample,The sum of the RSS for the first and second sub-samples,D,False,0.05109003558754921,0.06560090184211731,0.6224040389060974,0.259456604719162
+"Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",The test statistic will follow a chi-squared distribution with 2 degrees of freedom under the null hypothesis,The value of the log-likelihood function will almost always be bigger for the restricted model than for the unrestricted model,"If the relevant values of the log-likelihood functions are -112.3 and -118.4, the value of the test statistic is 12.2",The likelihood ratio test compares the slopes of the log-likelihood function at the maximum and at the restricted parameter value.,C,True,0.10245706140995026,0.13155746459960938,0.405225545167923,0.357610285282135
+Which one of the following is NOT a plausible remedy for near multicollinearity?,Use principal components analysis,Drop one of the collinear variables,Use a longer run of data,Take logarithms of each of the variables,D,False,0.12775854766368866,0.11274651437997818,0.5725740790367126,0.18588757514953613
+"Consider the following AR(2) process:
+
+yt = 1.5 yt-1 - 0.5 yt-2 + ut
+
+This is a",Stationary process,Unit root process,Explosive process,Stationary and unit root process,B,False,0.10949904471635818,0.1240786612033844,0.7140234112739563,0.05172368511557579
+Which of the following could be used as a test for autocorrelation up to third order?,The Durbin Watson test,White's test,The RESET test,The Breusch-Godfrey test,D,False,0.1448991298675537,0.07755891978740692,0.7358585596084595,0.04151429980993271
+The residual from a standard regression model is defined as,"The difference between the actual value, y, and the mean, y-bar","The difference between the fitted value, y-hat, and the mean, y-bar","The difference between the actual value, y, and the fitted value, y-hat","The square of the difference between the fitted value, y-hat, and the mean, y-bar",C,True,0.32237517833709717,0.08150921016931534,0.5315067768096924,0.06347943842411041
+"If OLS is applied separately to each equation that is part of a simultaneous system, the resulting estimates will be",Unbiased and consistent,Biased but consistent,Biased and inconsistent,It is impossible to apply OLS to equations that are part of a simultaneous system,C,True,0.0873865857720375,0.036428146064281464,0.5698320865631104,0.3050091564655304
+Which one of the following is NOT an example of mis-specification of functional form?,Using a linear specification when y scales as a function of the squares of x,Using a linear specification when a double-logarithmic model would be more appropriate,Modelling y as a function of x when in fact it scales as a function of 1/x,Excluding a relevant variable from a linear regression model,D,False,0.11327523738145828,0.06870491057634354,0.6518540382385254,0.1648145169019699
+Suppose that we wished to evaluate the factors that affected the probability that an investor would choose an equity fund rather than a bond fund or a cash investment. Which class of model would be most appropriate?,A logit model,A multinomial logit,A tobit model,An ordered logit model,B,False,0.07172951847314835,0.026387816295027733,0.680550754070282,0.22094248235225677
+"Which of the following statements will be true if the number of replications used in a Monte Carlo study is small?
+
+i) The statistic of interest may be estimated imprecisely
+
+
+ii) The results may be affected by unrepresentative combinations of random draws
+
+
+iii) The standard errors on the estimated quantities may be unacceptably large
+
+
+iv) Variance reduction techniques can be used to reduce the standard errors",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iv) only","(i), (ii), (iii), and (iv)",D,False,0.026955967769026756,0.02099332958459854,0.892659068107605,0.04444287344813347
+Which of the following is a disadvantage of the random effects approach to estimating a panel model?,The approach may not be valid if the composite error term is correlated with one or more of the explanatory variables,"The number of parameters to estimate may be large, resulting in a loss of degrees of freedom",The random effects approach can only capture cross-sectional heterogeneity and not temporal variation in the dependent variable.,All of (a) to (c) are potential disadvantages of the random effects approach.,A,False,0.07556172460317612,0.051932767033576965,0.4348277449607849,0.4348277449607849
+"Which of the following could result in autocorrelated residuals?
+
+i) Slowness of response of the dependent variable to changes in the values of the independent variables
+
+ii) Over-reactions of the dependent variable to changes in the independent variables
+
+iii) Omission of relevant explanatory variables that are autocorrelated
+
+iv) Outliers in the data",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.012373176403343678,0.023116135969758034,0.8674266338348389,0.09142608940601349
+"Which of the following statements are true concerning the acf and pacf?
+
+(i) The acf and pacf are often hard to interpret in practice
+
+(ii) The acf and pacf can be difficult to calculate for some data sets
+
+(iii) Information criteria represent an alternative approach to model order determination
+
+(iv) If applied correctly, the acf and pacf will always deliver unique model selections",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.014048483222723007,0.018038609996438026,0.8691489100456238,0.09160761535167694
+"Which of the following conditions are necessary for a series to be classifiable as a weakly stationary process?
+
+(i) It must have a constant mean
+
+(ii) It must have a constant variance
+
+(iii) It must have constant autocovariances for given lags
+
+(iv) It must have a constant probability distribution",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.011100311763584614,0.02349936030805111,0.8818070292472839,0.0820208266377449
+"Consider the following equation and determine the class of model that it best represents
+
+$y_{it} = \alpha + \beta_{it} + \mu_i + \nu_{it}$",An entity fixed effects model,A time fixed effects model,A random effects model,A pure time series model,A,False,0.09285663068294525,0.056320395320653915,0.7774790525436401,0.07231681793928146
+"Note that statistical tables are not necessary to answer this question. For a sample of 1000 observations, the Dickey-Fuller test statistic values are",More negative than (i.e. bigger in absolute value than) those in the left hand tail of a normal distribution,Less negative than (i.e. smaller in absolute value than) those in the left hand tail of a normal distribution,Obtained from an analytical formula for the density of the Dickey-Fuller distribution,More negative (i.e. bigger in absolute value) for a 10% size of test than a 5% test.,A,True,0.2892550528049469,0.2552666664123535,0.1988018900156021,0.2552666664123535
+"Suppose that a hypothesis test is conducted using a 5% significance level. Which of the following statements are correct?
+
+(i) The significance level is equal to the size of the test
+
+(ii) The significance level is equal to the power of the test
+
+(iii) 2.5% of the total distribution will be in each tail rejection region for a 2-sided test
+
+(iv) 5% of the total distribution will be in each tail rejection region for a 2-sided test.",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",B,False,0.02251303382217884,0.037117715924978256,0.7455292344093323,0.188499316573143
+Which one of the following criticisms of the Dickey-Fuller/Engle-Granger approach to dealing with cointegrated variables is overcome by the Engle-Yoo (EY) procedure?,"In the context of small samples, Dickey Fuller tests are prone to conclude that there is a unit root in a series when there is not",The Engle-Granger (EG) approach can only detect up to one cointegrating relationship even though there could be more than one,The variables are treated asymmetrically in the cointegrating tests,It is not possible to perform tests about the cointegrating relationship,D,False,0.1522531658411026,0.09234622120857239,0.6021729707717896,0.1522531658411026
+Consider a series that follows an MA(1) with zero mean and a moving average coefficient of 0.4. What is the value of the autocovariance at lag 1?,0.4,1,0.34,It is not possible to determine the value of the autocovariances without knowing the disturbance variance.,D,False,0.062035802751779556,0.10227973759174347,0.5194194316864014,0.3150438070297241
+"Which of the following estimation techniques are available for the estimation of over-identified systems of simultaneous equations?
+
+i) OLS
+
+ii) ILS
+
+iii) 2SLS
+
+iv) IV",(iii) only,(iii) and (iv) only,"(ii), (iii), and (iv) only","(i), (ii), (iii) and (iv)",B,False,0.02199711836874485,0.028244858607649803,0.728444516658783,0.18417960405349731
+Which one of the following statements best describes a Type II error?,It is the probability of incorrectly rejecting the null hypothesis,It is equivalent to the power of the test,It is equivalent to the size of the test,It is the probability of failing to reject a null hypothesis that was wrong,D,False,0.13483628630638123,0.06369214504957199,0.6042943000793457,0.1961856335401535
+Which one of the following would be the most appropriate as a 95% (two-sided) confidence interval for the intercept term of the model given in question 21?,"(-4.79,2.19)","(-4.16,4.16)","(-1.98,1.98)","(-5.46,2.86)",D,False,0.20726320147514343,0.16141673922538757,0.5633997321128845,0.06728850305080414
+"Which of the following are characteristics of a stationary process?
+
+i) It crosses its mean value frequently
+
+
+ii) It has constant mean and variance
+
+
+iii) It contains no trend component
+
+
+iv) It will be stationary in first difference form",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",D,False,0.01809505745768547,0.023234514519572258,0.8718687295913696,0.08109641820192337
+Consider again the VAR model of equation 16. Which of the following conditions must hold for it to be said that there is bi-directional feedback?,The b and d coefficients significant and the a and c coefficients insignificant,The a and c coefficients significant and the b and d coefficients insignificant,The a and c coefficients significant,The b and d coefficients significant,D,False,0.17490023374557495,0.09361734986305237,0.6104617714881897,0.1202070415019989
+"Consider the following sample autocorrelation estimates obtained using 250 data points:
+
+1) Lag 1 2 3
+
+2) Coefficient 0.2 -0.15 -0.1
+
+3) Assuming that the coefficients are approximately normally distributed, which of the coefficients are statistically significant at the 5% level?",1 only,1 and 2 only,"1, 2 and 3 only",It is not possible to determine the statistical significance since no standard errors have been given,B,False,0.2055969089269638,0.12470082193613052,0.5588703155517578,0.1100480780005455
+Which one of the following is examined by looking at a goodness of fit statistic?,How well the population regression function fits the data,How well the sample regression function fits the population regression function,How well the sample regression function fits the data,How well the population regression function fits the sample regression function.,C,True,0.10946707427501678,0.051708586513996124,0.7138149738311768,0.12404243648052216
+"Which of the following statements are correct concerning the use of antithetic variates as part of a Monte Carlo experiment?
+
+i) Antithetic variates work by reducing the number of replications required to cover the whole probability space
+
+ii) Antithetic variates involve employing a similar variable to that used in the simulation, but whose properties are known analytically
+
+iii) Antithetic variates involve using the negative of each of the random draws and repeating the experiment using those values as the draws
+
+iv) Antithetic variates involve taking one over each of the random draws and repeating the experiment using those values as the draws",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iv) only","(i), (ii), (iii), and (iv)",B,False,0.012950820848345757,0.018843332305550575,0.9079226851463318,0.04520280659198761
+Which one of the following statements is true concerning alternative forecast accuracy measures?,Mean squared error is usually highly correlated with trading rule profitability,Mean absolute error provides a quadratic loss function,Mean absolute percentage error is a useful measure for evaluating asset return forecasts,Mean squared error penalises large forecast errors disproportionately more than small forecast errors,D,False,0.08377472311258316,0.0575774647295475,0.7014371156692505,0.15651178359985352
+"Which of the following criticisms of standard (""plain vanilla"") GARCH models can be overcome by EGARCH models?
+
+i) Estimated coefficient values from GARCH models may be negative
+
+ii) GARCH models cannot account for leverage effects
+
+iii) The responsiveness of future volatility to positive and negative shocks is symmetric under a GARCH formulation
+
+iv) GARCH models cannot allow for a feedback from the volatility to the returns",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.03368905559182167,0.03817469999194145,0.7667593359947205,0.15098385512828827
+"Suppose that 100 separate firms were tested to determine how many of them ""beat the market"" using a Jensen-type regression, and it is found that 3 fund managers significantly do so. Does this suggest prima facie evidence for stock market inefficiency?",Yes,No,"In order to answer this question, you would need to test every fund manager trading in that market",There is insufficient information given in the question to draw a conclusion about market efficiency.,B,False,0.05550769343972206,0.1709757298231125,0.4101494550704956,0.3619556128978729
+"Which of the following are advantages of the use of panel data over pure cross-sectional or pure time-series modelling?
+
+(i) The use of panel data can increase the number of degrees of freedom and therefore the power of tests
+
+(ii) The use of panel data allows the average value of the dependent variable to vary either cross-sectionally or over time or both
+
+(iii) The use of panel data enables the researcher allows the estimated relationship between the independent and dependent variables to vary either cross-sectionally or over time or both",(i) only,(i) and (ii) only,(ii) only,"(i), (ii), and (iii)",B,False,0.002507320139557123,0.0028411659877747297,0.22570176422595978,0.0732746347784996
+"If the Engle-Granger test is applied to the residuals of a potentially cointegrating regression, what would be the interpretation of the null hypothesis?",The variables are cointegrated,The variables are not cointegrated,Both variables are stationary,Both variables are non-stationary,B,False,0.20516391098499298,0.20516391098499298,0.49216264486312866,0.09691256284713745
+"Which of the following statements are true concerning the autocorrelation function (acf) and partial autocorrelation function (pacf)?
+
+i) The acf and pacf will always be identical at lag one whatever the model
+
+ii) The pacf for an MA(q) model will in general be non-zero beyond lag q
+
+iii) The pacf for an AR(p) model will be zero beyond lag p
+
+iv) The acf and pacf will be the same at lag two for an MA(1) model",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",C,True,0.01768379658460617,0.029155651107430458,0.8520530462265015,0.0898057296872139
